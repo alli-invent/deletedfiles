@@ -1,0 +1,47 @@
+# Core Flask
+Flask==2.3.3
+Flask-SQLAlchemy==3.0.5
+Flask-Migrate==4.0.4
+Flask-Login==0.6.3
+Flask-CORS==4.0.0
+Flask-JWT-Extended==4.5.3
+Flask-WTF==1.1.1
+
+# Database
+psycopg2-binary==2.9.7
+SQLAlchemy==2.0.23
+alembic==1.12.1
+
+# Authentication & Security
+Werkzeug==2.3.7
+PyJWT==2.8.0
+bcrypt==4.0.1
+email-validator==2.0.0
+
+# File Processing
+python-magic==0.4.27
+pdfkit==1.0.0
+Pillow==10.0.1
+
+# Payments
+stripe==5.5.0
+
+# Utilities
+python-dotenv==1.0.0
+python-multipart==0.0.6
+requests==2.31.0
+python-dateutil==2.8.2
+
+# Email
+blinker==1.6.3
+Flask-Mail==0.9.1
+
+# Development
+Flask-DebugToolbar==0.13.1
+
+# Production
+gunicorn==21.2.0
+
+# Install requirements directly
+# pip install flask flask-sqlalchemy flask-migrate flask-login flask-cors flask-jwt-extended psycopg2-binary python-dotenv
+# pip install pymysql
